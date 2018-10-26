@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+	
+<style>    
+  .thin-black-border { 
+	width: 100px;
+	border-radius: 10px;
+    border-color: black;
+    border-width: 5px;    
+    border-style: solid;    
+  }    
+</style>
+
+<h1>个人信息</h1>
+
+<p>你的照片</p>
+	
+<img class="thin-black-border" src="https://imgsa.baidu.com/forum/w%3D580/sign=c79e720b0a4f78f0800b9afb49300a83/9c419b25bc315c6008db87b084b1cb1348547766.jpg">
+	
+	<p>姓名：<input type="text" placeholder="your name"></p>
+	
+	<p>性别：<label><input type="radio" name="男性-女性"> 男性
+		
+		<input type="radio" name="男性-女性"> 女性</label></p>
+	
+	<p>身高：<input type="text" placeholder="hight"></p>
+	
+	<p>体重：<input type="text" placeholder="weight"></p>
+
+	<p>生日：<input type="text" placeholder="birthday"></p>
+	
+	<p>籍贯：<input type="text" placeholder="native place"></p>
+	
+<form action="" method="get"> 
+	
+兴趣爱好：<br/><br/>
+	
+	<label style="color: red"><input type="checkbox" name="personality">学习 </label> 
+	
+	<label><input type="checkbox" name="personality">阅读 </label><br/>
+	
+	<label><input type="checkbox" name="personality">运动 </label> 
+	
+	<label><input type="checkbox" name="personality">电影 </label><br/>
+	
+	<label><input type="checkbox" name="personality">购物 </label>
+	
+	<label><input type="checkbox" name="personality">美食 </label><br/>
+	
+	<label><input type="checkbox" name="personality">科技 </label>
+	
+	<label><input type="checkbox" name="personality">军事 </label><br/>
+	
+	<label><input type="checkbox" name="personality">动漫 </label>
+	
+	<label><input type="checkbox" name="personality">游戏 </label> 
+	
+</form>
+
+<p>个人说明：<input type="text" ></p>
+	
+<form>
+	
+	<button type="submit">submits</button>
+
+</form>
+	
+</body>
+</html>
